@@ -4,7 +4,6 @@
 
 
 import discord
-import os
 
 
 client = discord.Client()
@@ -34,5 +33,4 @@ async def on_message(message):
         await message.channel.send("응 자기소개 잘~한다")
 
 
-accss_token = os.environ["BOT_TOKEN"]
-client.run(access_token)
+client.run(Njc2Njg4MDA1NDE4OTc1MjUy.XkQR-w.upIpbc2pY6eCzvTrjoq0n7_uKIU)
